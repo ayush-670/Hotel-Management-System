@@ -126,22 +126,27 @@ class hotelfarecal:
             if (e==1):
                 f=int(input("Enter the quantity:"))
                 self.t=self.t+3*f
+                break
 
             elif (e==2):
                 f=int(input("Enter the quantity:"))
                 self.t=self.t+4*f
+                break
 
             elif (e==3):
                 f=int(input("Enter the quantity:"))
                 self.t=self.t+5*f
+                break
 
             elif (e==4):
                 f=int(input("Enter the quantity:"))
                 self.t=self.t+6*f
+                break
 
             elif (e==5):
                 f=int(input("Enter the quantity:"))
                 self.t=self.t+8*f
+                break
             elif (e==6):
                 break;
             else:
@@ -167,18 +172,22 @@ class hotelfarecal:
             if (g==1):
                 h=int(input("No. of hours:"))
                 self.p=self.p+60*h
+                break
 
             elif (g==2):
                 h=int(input("No. of hours:"))
                 self.p=self.p+80*h
+                break
 
             elif (g==3):
                 h=int(input("No. of hours:"))
                 self.p=self.p+70*h
+                break
 
             elif (g==4):
                 h=int(input("No. of hours:"))
                 self.p=self.p+90*h
+                break
 
             elif (g==5):
                 h=int(input("No. of hours:"))
